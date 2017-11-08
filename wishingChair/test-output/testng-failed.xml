@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="TESTCASES" value="1"/>
+  <parameter name="OUTPUT_PATH" value="E:\\Output\\"/>
+  <parameter name="iWaitForElement" value="20"/>
+  <parameter name="CHROME_DRIVER_PATH" value="D:\\JarFiles\\driver\\ChromeDriver\\chromedriver.exe"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="DATA_PATH" value="data/data.xlsx"/>
+  <parameter name="IE_DRIVER_PATH" value="D:\\JarFiles\\driver\\IEDriver\\MicrosoftWebDriver.exe"/>
+  <parameter name="SHEET" value="Sheet1"/>
+  <parameter name="IMAGES_PATH" value="E:\\Images\\"/>
+  <parameter name="GECKO_DRIVER_PATH" value="D:\\JarFiles\\driver\\GeckoDriver\\geckodriver.exe"/>
+  <test name="Test(failed)">
+    <parameter name="TESTCASES" value="1"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="DATA_PATH" value="data/data.xlsx"/>
+    <parameter name="SHEET" value="Sheet1"/>
+    <classes>
+      <class name="wcTest.WCTest">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- wcTest.WCTest -->
+      <class name="lib.CommonClass">
+        <methods>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lib.CommonClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

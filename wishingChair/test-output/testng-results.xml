@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46938" started-at="2017-11-08T09:37:28Z" finished-at="2017-11-08T09:38:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46938" started-at="2017-11-08T09:37:28Z" finished-at="2017-11-08T09:38:15Z">
+      <class name="lib.CommonClass">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:lib.CommonClass@59f99ea]" name="setup" is-config="true" duration-ms="7" started-at="2017-11-08T15:07:28Z" finished-at="2017-11-08T15:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\\JarFiles\\driver\\ChromeDriver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[D:\\JarFiles\\driver\\IEDriver\\MicrosoftWebDriver.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D:\\JarFiles\\driver\\GeckoDriver\\geckodriver.exe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E:\\Output\\]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[E:\\Images\\]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:lib.CommonClass@59f99ea]" name="setUp" is-config="true" duration-ms="4534" started-at="2017-11-08T15:07:28Z" finished-at="2017-11-08T15:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data/data.xlsx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lib.CommonClass@59f99ea]" name="tearDown" is-config="true" duration-ms="433" started-at="2017-11-08T15:08:14Z" finished-at="2017-11-08T15:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lib.CommonClass -->
+      <class name="wcTest.WCTest">
+        <test-method status="PASS" signature="testCase1(int, lib.BakeriData)[pri:0, instance:wcTest.WCTest@27efef64]" name="testCase1" duration-ms="41116" started-at="2017-11-08T15:07:33Z" data-provider="getData" finished-at="2017-11-08T15:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BakeriData [iTestCaseID=1, sNo=EA0071EC0001]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- wcTest.WCTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
